@@ -3,9 +3,23 @@ let compScore = 0;
 
 
 const choices = document.querySelectorAll(".choice");
+let rst = document.querySelector("#rst");
 const msg =document.querySelector("#msg");
 const userScorepara = document.querySelector("#user-score");
 const compScorepara = document.querySelector("#comp-score");
+
+const rstGame = (userScore,compScore)=>{
+    console.log("button was clicked");
+  userScore = 0;
+  userScorepara.innerText = userScore;
+ compScore = 0;
+ compScorepara.innerText = compScore;
+ msg.innerText = "Choose your Option";
+ msg.style.backgroundColor = "#F2AFEF";
+ msg.style.Color = "#081b31";
+}
+
+
 const drawGame = ()=>{
   console.log("game was drawn.");
   msg.innerText = "Game Draw!!";
@@ -72,3 +86,4 @@ choices.forEach((choice)=>{
         playGame(userChoice);
     })
 })
+ rst.addEventListener("click",rstGame);
