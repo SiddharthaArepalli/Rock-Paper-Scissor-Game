@@ -12,6 +12,7 @@ const rstGame = (userScore,compScore)=>{
     console.log("button was clicked");
   userScore = 0;
   userScorepara.innerText = userScore;
+    
  compScore = 0;
  compScorepara.innerText = compScore;
  msg.innerText = "Choose your Option";
