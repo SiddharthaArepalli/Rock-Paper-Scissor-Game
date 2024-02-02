@@ -9,6 +9,7 @@ This game is developed using fundamental JavaScript concepts, providing a fun wa
 **Features**
 Click-based user interaction for selecting choices (rock, paper, or scissors).
 Random selection by the computer.
+
 Dynamic display of the game results.
 Simple, intuitive interface.
 
