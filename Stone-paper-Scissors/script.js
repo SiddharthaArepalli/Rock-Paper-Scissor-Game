@@ -10,6 +10,7 @@ const compScorepara = document.querySelector("#comp-score");
 
 const rstGame = (userScore,compScore)=>{
     console.log("button was clicked");
+    
   userScore = 0;
   userScorepara.innerText = userScore;
     
