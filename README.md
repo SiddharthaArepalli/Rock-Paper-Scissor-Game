@@ -6,6 +6,7 @@ Welcome to the Rock-Paper-Scissors game repository! This project showcases a sim
 **About the Game**
 This game is developed using fundamental JavaScript concepts, providing a fun way to challenge the computer in the classic decision-making showdown. It's entirely browser-based, making it accessible and playable directly in your browser.
 
+
 **Features**
 Click-based user interaction for selecting choices (rock, paper, or scissors).
 Random selection by the computer.
