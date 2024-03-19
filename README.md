@@ -12,6 +12,7 @@ Click-based user interaction for selecting choices (rock, paper, or scissors).
 Random selection by the computer.
 
 Dynamic display of the game results.
+
 Simple, intuitive interface.
 
 **How to Play**
